@@ -26,7 +26,7 @@
         "phpunit/php-text-template": "~1.1",
         "phpunit/php-code-coverage": "~1.2",
         "phpunit/php-timer": "~1.0",
-        "phpunit/phpunit-mock-objects": "~1.2",
+        "phpunit/phpunit-mock-objects": "1.2.x-dev",
         "symfony/yaml": "~2.0",
         "ext-ctype": "*",
         "ext-dom": "*",
@@ -39,6 +39,10 @@
         "pear-pear.php.net/pear": "1.9.4"
     },
     "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/nlegoff/phpunit-mock-objects"
+        },
         {
             "type": "pear",
             "url": "http://pear.php.net"
